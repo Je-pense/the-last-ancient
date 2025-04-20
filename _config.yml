@@ -1,0 +1,39 @@
+# Site settings
+title: 最後的古人 | 往事如煙
+description: '上世紀六十年代末出生的人，大抵是最後的古人'
+keywords: '最後的古人'
+url: 'https://je-pense.github.io/the-last-ancient'
+author:
+  name: '阿甘'
+  email: 'winwinsfu@gmail.com'
+  url: 'https://je-pense.github.io/'
+
+# Build settings
+baseurl: /the-last-ancient # Change this to your relative path (ex: /blog/), or leave just a /
+markdown: kramdown
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 8
+paginate_path: /page:num/
+
+# Default values
+defaults:
+  - scope:
+      path: ''
+      type: 'posts'
+    values:
+      layout: 'post'
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+
+# Custom variables
+version: '1.0'
+
+# Options
+custom_header: false
+custom_nav_footer: false
+reverse: false
