@@ -37,7 +37,3 @@ version: '1.0'
 custom_header: false
 custom_nav_footer: false
 reverse: false
-
-sticky_post:
-  enable: true
-  title: '置頂'
